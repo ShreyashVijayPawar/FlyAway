@@ -26,7 +26,7 @@ public class HibernateUtil {
 				System.out.println("Connection With DB is Successfully Established...");
 
 			} catch (Exception e) {
-				Sysystem.out.println("Inside catch block");
+				System.out.println("Inside catch block");
 				System.out.println("Some error occured while connecting to database...");
 				System.out.println("Connection With DB Failed...");
 			}
