@@ -26,6 +26,7 @@ public class UserDao {
 			if (tempUserCred == null) {
 				return validUserFlag;
 			} else {
+				System.out.println("Inside Else part");
 				if (tempUserCred.getPassword().equals(userCred.getPassword())) {
 					validUserFlag = true;
 					return validUserFlag;

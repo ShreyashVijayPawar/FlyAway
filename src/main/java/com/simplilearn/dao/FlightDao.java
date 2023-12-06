@@ -20,6 +20,7 @@ public class FlightDao {
 
 		try {
 			// Open session if it is not already open and begin transaction
+			System.out.println("Open session if it is not already open and begin transaction");
 			if (session == null) {
 				session = HibernateUtil.sessionFactory.openSession();
 			}
