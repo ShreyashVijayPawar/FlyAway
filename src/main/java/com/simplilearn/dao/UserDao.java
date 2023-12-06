@@ -20,6 +20,7 @@ public class UserDao {
 			}
 			
 			// Fetching user based on user name provided
+			System.out.println("Fetching user based on user name provided");
 			UserCred tempUserCred = (UserCred) session.get(UserCred.class, userCred.getUserName());
 			
 			// Validating Password with temporarily stored user from DB for provided user name
